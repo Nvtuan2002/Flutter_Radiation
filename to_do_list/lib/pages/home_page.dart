@@ -22,16 +22,16 @@ class _HomePageState extends State<HomePage> {
   final ScrollController _scrollController = ScrollController();
 
   List toDoList = [
-    // [
-    //   "Hạn Nộp Tiếng Anh",
-    //   false,
-    //   DateFormat('dd/MM/yyyy').format(DateTime.now())
-    // ],
-    // [
-    //   "Hạn Nộp Lập Trình Mobile",
-    //   true,
-    //   DateFormat('dd/MM/yyyy').format(DateTime.now())
-    // ]
+    [
+      "Hạn Nộp Tiếng Anh",
+      false,
+      DateFormat('dd/MM/yyyy').format(DateTime.now())
+    ],
+    [
+      "Hạn Nộp Lập Trình Mobile",
+      true,
+      DateFormat('dd/MM/yyyy').format(DateTime.now())
+    ]
   ];
 
   void datePicker() {
